@@ -50,10 +50,11 @@ main {
     flex-direction: column;
     justify-content: space-between;
 
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 62px;
+    min-height: 62px;
     max-width: 72px;
     max-height: 72px;
+
     margin-bottom: 10px;
 
     border: 1px solid #171717;
@@ -257,4 +258,10 @@ main {
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: 4px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 540px) {
+    .cards {
+        gap: 3px;
+    }
 }
