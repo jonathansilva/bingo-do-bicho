@@ -50,11 +50,8 @@ main {
     flex-direction: column;
     justify-content: space-between;
 
-    min-width: 62px;
-    min-height: 62px;
-    max-width: 72px;
-    max-height: 72px;
-
+    width: 72px;
+    height: 72px;
     margin-bottom: 10px;
 
     border: 1px solid #171717;
@@ -261,7 +258,12 @@ main {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 540px) {
-    .cards {
+    .card {
         gap: 3px;
+    }
+
+    .animals > div {
+        width: 62px;
+        height: 62px;
     }
 }
