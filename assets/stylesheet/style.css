@@ -1,0 +1,258 @@
+* {
+    margin: 0 auto;
+
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body {
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAFVBMVEUqKiopKSkoKCgjIyMuLi4kJCQtLS0dJckpAAAAO0lEQVR42iXLAQoAUQhCQSvr/kfe910jHIikElsl5qVFa1iE5f0Pom/CNZdbNM6756lQ41NInMfuFPgAHVEAlGk4lvIAAAAASUVORK5CYII=");
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    max-width: 980px;
+    height: 100vh;
+}
+
+.no-cursor {
+    cursor: default !important;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+.card h3 {
+    justify-content: center;
+
+    height: 84px;
+    font-size: xx-large;
+    color: #d2a252;
+}
+
+.animals > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 72px;
+    height: 72px;
+    margin-bottom: 10px;
+
+    border: 1px solid #171717;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #00000000;
+
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+.animals > div:last-child {
+    margin-bottom: 0px;
+}
+
+.animal {
+    position: relative;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+.number {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    margin-right: 3px;
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: -1px 1px 1px #3b3b3b;
+    color: #dedede;
+}
+
+.name {
+    position: absolute;
+
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #222222;
+
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #f0f8ff70;
+}
+
+.free {
+	background-color: #d657574f !important;
+}
+
+.animal.selected {
+    border: 1px solid #d2d2d2 !important;
+}
+
+.name.selected {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+    background-color: #d2d2d2 !important;
+}
+
+.blue {
+    border: 1px solid #171717 !important;
+    background-color: #5382ad !important;
+}
+
+.animal1 {
+    background-image: url('../icons/1.png');
+}
+
+.animal2 {
+    background-image: url('../icons/2.png');
+}
+
+.animal3 {
+    background-image: url('../icons/3.png');
+}
+
+.animal4 {
+    background-image: url('../icons/4.png');
+}
+
+.animal5 {
+    background-image: url('../icons/5.png');
+}
+
+.animal6 {
+    background-image: url('../icons/6.png');
+}
+
+.animal7 {
+    background-image: url('../icons/7.png');
+}
+
+.animal8 {
+    background-image: url('../icons/8.png');
+}
+
+.animal9 {
+    background-image: url('../icons/9.png');
+}
+
+.animal10 {
+    background-image: url('../icons/10.png');
+}
+
+.animal11 {
+    background-image: url('../icons/11.png');
+}
+
+.animal12 {
+    background-image: url('../icons/12.png');
+}
+
+.animal13 {
+    background-image: url('../icons/13.png');
+}
+
+.animal14 {
+    background-image: url('../icons/14.png');
+}
+
+.animal15 {
+    background-image: url('../icons/15.png');
+}
+
+.animal16 {
+    background-image: url('../icons/16.png');
+}
+
+.animal17 {
+    background-image: url('../icons/17.png');
+}
+
+.animal18 {
+    background-image: url('../icons/18.png');
+}
+
+.animal19 {
+    background-image: url('../icons/19.png');
+}
+
+.animal20 {
+    background-image: url('../icons/20.png');
+}
+
+.animal21 {
+    background-image: url('../icons/21.png');
+}
+
+.animal22 {
+    background-image: url('../icons/22.png');
+}
+
+.animal23 {
+    background-image: url('../icons/23.png');
+}
+
+.animal24 {
+    background-image: url('../icons/24.png');
+}
+
+.animal25 {
+    background-image: url('../icons/25.png');
+}
+
+.animal1,
+.animal2,
+.animal3,
+.animal4,
+.animal5,
+.animal6,
+.animal7,
+.animal8,
+.animal9,
+.animal10,
+.animal11,
+.animal12,
+.animal13,
+.animal14,
+.animal15,
+.animal16,
+.animal17,
+.animal18,
+.animal19,
+.animal20,
+.animal21,
+.animal22,
+.animal23,
+.animal24,
+.animal25
+{
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(3px 3px 3px #000);
+
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 4px;
+}
