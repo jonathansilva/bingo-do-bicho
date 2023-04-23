@@ -257,7 +257,7 @@ main {
     background-position-y: 4px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 540px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .card {
         gap: 4px;
     }
