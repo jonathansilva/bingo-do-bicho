@@ -12,9 +12,11 @@
     <script type="text/javascript" src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
         const telegram = window.Telegram.WebApp;
+
         telegram.ready();
         telegram.expand();
-        telegram.isProgressVisible = "false";
+        telegram.hideProgress();
+        telegram.enableClosingConfirmation();
     </script>
 </head>
 
@@ -22,8 +24,6 @@
     <main>
         <div class="card">
             <div>
-                <!--h3 class="flex">B</h3-->
-
                 <div class="animals">
                     <div id="square0" class="animal">
                         <div class="number">&nbsp;</div>
@@ -49,8 +49,6 @@
             </div>
 
             <div>
-                <!--h3 class="flex">I</h3-->
-
                 <div class="animals">
                     <div id="square5" class="animal">
                         <div class="number">&nbsp;</div>
@@ -76,8 +74,6 @@
             </div>
 
             <div>
-                <!--h3 class="flex">N</h3-->
-
                 <div class="animals">
                     <div id="square10" class="animal">
                         <div class="number">&nbsp;</div>
@@ -103,8 +99,6 @@
             </div>
 
             <div>
-                <!--h3 class="flex">G</h3-->
-
                 <div class="animals">
                     <div id="square15" class="animal">
                         <div class="number">&nbsp;</div>
@@ -130,8 +124,6 @@
             </div>
 
             <div>
-                <!--h3 class="flex">O</h3-->
-
                 <div class="animals">
                     <div id="square20" class="animal">
                         <div class="number">&nbsp;</div>

@@ -37,14 +37,6 @@ main {
     gap: 10px;
 }
 
-.card h3 {
-    justify-content: center;
-
-    height: 84px;
-    font-size: xx-large;
-    color: #d2a252;
-}
-
 .animals > div {
     display: flex;
     flex-direction: column;
